@@ -1,0 +1,16 @@
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        
+        for i in enumerate(s):
+            a.append(s[i])
+            b.append(t[i])
+
+        sorted(a)
+        sorted(b)   
+
+        print(a,b)
+
+        if a == b:
+            return True
+        else:
+            return False
